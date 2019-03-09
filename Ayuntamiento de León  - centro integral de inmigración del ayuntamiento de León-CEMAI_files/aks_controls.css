@@ -1,0 +1,388 @@
+﻿/* _lcid="1033" _version="12.0.4518"
+    _LocalBinding */
+.slm-dragdrop-source{ 
+behavior: url(/_layouts/1033/cmsslwpdragdropsource.htc);
+}
+.slm-layout-main{
+width:100%;
+padding:0px;
+margin:0px;
+border:0px;
+}
+.slm-edit-ecb {
+width:2.45em;
+}
+.slm-edit-ecb div {
+vertical-align:middle; 
+height:1.45em;
+padding:.125em 0px 0px .125em;
+}
+.slm-edit-link {
+vertical-align:top; 
+padding:.0625em 0px 0px .0625em;
+}
+.slm-display-link{
+vertical-align:top; 
+padding:0px;
+}
+.presence-status-icon{
+float:left;
+padding-top: .0625em;
+padding-right:.31em;
+padding-left: 0px;
+height:.75em;
+width:.75em;
+}
+.wp-content{
+margin-bottom:.4em;
+margin-top:.4em;
+margin-left:.4em;
+margin-right:0px;
+}
+.cbq-layout-main{
+width:100%;
+padding:0;
+margin:0;
+border:0;
+}
+.toc-layout-main {
+width:100%;
+padding:0;
+margin:0;
+border:0;
+}
+.item {
+margin-bottom:.4em;
+margin-top:.4em;
+margin-left:.250em;
+margin-right:0px;
+clear:both;
+}
+.centered {
+text-align:center;
+}
+.link-item, .link-item a, .link-item a:link{
+font-family:tahoma; 
+font-size:.9em; 
+color: #003399;
+text-decoration:none;
+}
+.link-item a:visited, .link-item a:active{
+color: #4167AF;
+text-decoration:none;
+}
+.link-item a:hover{
+color: #000000;
+text-decoration:underline;
+}
+.link-item-large, .link-item-large a, .link-item-large a:link{
+font-family:tahoma; 
+font-size:1.10em; 
+color: #003399;
+text-decoration:none;
+}
+.link-item-large a:visited, .link-item-large a:active{
+color: #4167AF;
+text-decoration:none;
+}
+.link-item-large a:hover{
+color: #000000;
+text-decoration:underline;
+}
+.description {
+font-family:tahoma; 
+font-size:.9em; 
+color: #4c4c4c;
+}
+.image-area-left {
+float:left;
+padding-right:.31em;
+padding-left: 0px;
+}
+.image-area-right {
+float:right;
+padding-left:.31em;
+padding-right: 0px;
+vertical-align:top;
+}
+.image-area-top {
+padding-bottom:.31em;
+}
+.image{
+border:0;
+}
+.image-fixed-width{
+border:0;
+width:5.625em;
+}
+.bullet{
+border-style: none;
+border-color: inherit;
+border-width: 0;
+vertical-align:top;
+background-image:url("/_layouts/images/lstbulet.gif");
+background-repeat:no-repeat;
+background-position:left;
+padding-left:.625em;
+padding-right: 0px;
+}
+.groupheader {
+font-family: tahoma; 
+text-align:left;
+margin-bottom:.31em;
+font-size:.9em; 
+font-weight:bold; 
+color:#000000;
+clear:both;
+}
+.band {
+background-color:#E4E8F0;
+padding:.125em 0px .125em .19em;
+}
+.large {
+font-size:1.1em; 
+}
+.small {
+font-size:.6em; 
+}
+.medium {
+font-size:.7em; 
+}
+.centered{
+text-align:center;
+}
+.separator{
+border:.0625em #333333 solid;
+clear:both;
+}
+.whitespace{
+margin-bottom:.31em;
+clear:both;
+}
+.level-header{
+padding:.125em 0px .125em 0px;
+}
+.level-band{
+background-color:#E4E8F0;
+padding:.125em 0px .125em .19em;
+margin-right:.19em;
+margin-left: 0px;
+}
+.level-description{
+font-family: tahoma; 
+font-size: .9em; 
+color: #4c4c4c
+}
+.level-description-padding{
+padding-left:.95em;
+padding-right: 0px;
+padding-bottom:.0625em;
+}
+.level-item-pos{
+margin: .125em .19em .125em .19em;
+padding: .0625em 0px .0625em 0px;
+}
+.level-item, .level-item a, .level-item a:link{
+font-family: tahoma; 
+font-size:.9em; 
+color: #003399;
+}
+.level-item a:visited, .level-item a:active{
+color: #4167AF;
+text-decoration:none;
+}
+.level-item a:hover{
+color: #000000;
+text-decoration:underline;
+}
+.level-section{
+margin-bottom:.4em;
+}
+.level-bullet{
+border-style: none;
+border-color: inherit;
+border-width: 0;
+vertical-align:top;
+background-image:url("/_layouts/images/lstbulet.gif");
+background-repeat:no-repeat;
+background-position:left;
+padding-left:.625em;
+padding-right: 0px;
+}
+.headertitle, .headertitle a, .headertitle a:link{
+font-family: tahoma; 
+font-size:.9em; 
+font-weight: bold; 
+color: #003399;
+}
+.headertitle a:visited, .headertitle a:active{
+color: #4167AF;
+text-decoration:none;
+}
+.headertitle a:hover{
+color: #000000;
+text-decoration:underline;
+}
+.headertitle-large, .headertitle-large a, .headertitle-large a:link{
+font-family: tahoma; 
+font-size: .9em; 
+font-weight: bold; 
+color: #003399;
+}
+.headertitle-large a:visited, .headertitle-large a:active{
+color: #4167AF;
+text-decoration:none;
+}
+.headertitle-large a:hover{
+color: #000000;
+text-decoration:underline;
+}
+.headertitle-small, .headertitle-small a, .headertitle-small a:link{
+font-family: tahoma; 
+font-size:.9em; 
+font-weight: bold; 
+color: #003399;
+}
+.headertitle-small a:visited, .headertitle-small a:active{
+color: #4167AF;
+text-decoration:none;
+}
+.headertitle-small a:hover{
+color: #000000;
+text-decoration:underline;
+}
+.headertitle-band, .headertitle-band a, .headertitle-band a:link{
+font-family: tahoma; 
+font-size:.9em; 
+font-weight: bold; 
+color: #003399;
+}
+.headertitle-band a:visited, .headertitle-band a:active{
+color: #4167AF;
+text-decoration:none;
+}
+.headertitle-band a:hover{
+color: #000000;
+text-decoration:underline;
+}
+.cqfeed 
+{
+text-align:right;
+}
+.ms-slDlg-BodyContainer
+{
+width: 100%;
+height: 100%;
+}
+.ms-slDlg-FieldLabel
+{
+padding-top: .625em;
+padding-bottom: .125em;
+}
+.ms-slDlg-IndentedFieldLabel
+{
+padding-left:.625em;
+padding-top: .31em;
+padding-bottom: .125em;
+}
+.ms-slDlg-FieldDescription
+{
+color: gray;
+}
+.ms-slDlg-BrowseButton
+{
+margin-left: .625em;
+margin-right: .31em;
+}
+.ms-slLinkDlg-InputField
+{
+width: 17.19em;
+}
+.ms-slLinkDlg-FirstPanel
+{
+text-align: left;
+padding-top: .625em;
+padding-left: 3.125em;
+padding-right: 1.25em;
+}
+.ms-slLinkDlg-Panel
+{
+text-align: left;
+padding-top: 0px;
+padding-left: 3.125em;
+padding-right: 1.25em;
+}
+.ms-slLinkDlg-PeoplePanel
+{
+text-align: left;
+background-color:#d6e8ff;
+padding-top: 0px;
+padding-left:3.125em;
+padding-bottom: .625em;
+padding-right: 1.25em;
+margin-top: .31em;
+}
+.ms-slDlg-ActionText
+{
+padding-left:.31em;
+}
+.ms-slDlg-ActionText a, .ms-slDlg-ActionText a:visited, .ms-slDlg-ActionText a:active{
+color: #4167AF;
+text-decoration:none;
+}
+.ms-slDlg-ActionText a:hover{
+color: #000000;
+text-decoration:underline;
+}
+.ms-slGroupDlg-InputField
+{
+width: 22.625em;
+}
+.ms-slGroupDlg-Panel
+{
+text-align: left;
+padding-top: .31em;
+padding-left: 3.125em;
+padding-right: 1.25em;
+}
+.ms-slViewDlg-InputField
+{
+width: 22.625em;
+}
+.ms-slViewDlg-Panel
+{
+text-align: left;
+padding-top: .31em;
+padding-left: 3.125em;
+padding-right: 1.25em;
+}
+.ms-slViewDlg-FirstPanel
+{
+text-align: left;
+padding-top:1.25em;
+padding-left: 3.125em;
+padding-right: 1.25em;
+}
+.ms-slSortDlg-Panel
+{
+text-align: left;
+padding-top: 0px;
+padding-left: 0px;
+padding-right: 0px;
+}
+.listItem div.callOut a
+{
+font: bold 12.5pt/16pt arial, helvetica, sans-serif;
+color: #ffffff;
+}
+.title-With-Background 
+{ 
+background-color:#83B0EC; 
+margin-top:.31em;
+padding: .25em;
+}
+div.title-With-Background a, div.title-With-Background a:link, div.title-With-Background a:hover, div.title-With-Background a:visited, div.title-With-Background a:active 
+{
+font: bold .8em/.95em arial, helvetica, sans-serif;
+color: #ffffff;
+}

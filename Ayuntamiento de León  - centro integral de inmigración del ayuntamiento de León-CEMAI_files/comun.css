@@ -1,0 +1,1270 @@
+﻿/***CSS del Ayuntamiento de Leon***/
+
+*html{
+	margin:0;
+	padding:0;
+	border:0;				
+}
+
+img{
+	border:0;
+	vertical-align:top;			
+}
+
+form{
+	margin:0;				
+}
+
+input, select, textarea{
+	font-size:small !important;	
+	border-color:#666666;
+	border-width:1px;			
+}
+
+body{
+	margin:0;
+	padding:0;
+	background-color:#ffffff !important;
+	width:100%;
+	
+	font-family:Tahoma;	
+	
+}
+
+h1{
+	font-size:large;
+	color:#ffffff;
+	font-family:Optima, Tahoma;
+	margin:2px 10px 0;				
+}
+
+h1 a{
+	color:#ffffff;
+	text-decoration:none;				
+}
+
+/*** Estructura general***/
+
+#generica{
+	font-size:small;
+}
+
+#contenedor{
+	width:100%;
+	float:left;
+	background-color:#ffffff;
+	
+		
+}
+
+#izquierda_home{
+	position:absolute;
+	width:160px;
+	left:0;
+	top:0;
+	float:none;				
+}
+
+#escudo{
+	position:absolute;
+	width:160px;
+	background:transparent;
+	height:80px;
+	margin-top:3px;
+	text-align:center;
+	z-index:2;			
+}
+
+#cabecera{
+	width:100%;
+	position:relative;
+	float:none;
+	left:0;
+	top:0;				
+}
+
+#contenido_cabecera{
+	top:7px;
+	right:10px;
+	text-align:right;
+	font-size:small;
+	position:absolute;
+			
+}
+
+#franja_grana{
+	width:100%;
+	height:30px;
+	position:absolute;
+	float:none;
+	left:0;
+	top:32px;
+	background-color:#99115d;						
+}
+
+#contenido{
+	width:100%;
+	margin-top:65px;	
+	/*float:none;*/
+	float:left;
+	
+	padding:0;
+}
+
+#contenido form{
+	margin:0;
+	padding:0;
+}
+
+#idiomas{
+	text-align:right;	
+	float:right;
+	margin-right:10px;
+	margin-top:5px;
+	font-size:small;
+	color:#ffffff;	
+				
+}
+
+.dentro_destacados{
+	width:100%;
+	float:left;
+	clear:both;
+}
+
+#pie{
+	width:100%;	
+	padding:0;
+	float:left;
+	text-align:center;
+	font-size:small;
+	color:#888888;
+	clear:both;	
+	line-height:1.5em;	
+	margin-top:5px;		
+}
+
+#pie a{	
+	color:#888888;
+	text-decoration:none;	
+}
+
+#pie a:hover{	
+	color:#888888;
+	text-decoration:underline;	
+}
+
+
+#pie .caja{
+	width:20%;
+	padding-right:3%;
+	float:right;
+	display:inline;
+	text-align:left;	
+	font-size:small;		
+}
+
+#flota_acciones{
+	float:none; 
+	position:absolute; 
+	top:5px; 
+	left:160px;			
+	font-size:small;
+	z-index:1000;
+}
+
+#login_membership{		
+	
+	margin:-3px 0 0 0;
+	padding:0;
+	display:table;	
+	vertical-align:top;
+}
+
+
+
+
+
+
+
+#login_membership table tr{
+	display:inline;			
+
+}
+
+#login_membership table tr td{
+	
+	color:#666666;
+	font-size:small;			
+	margin:0 !important;
+	vertical-align:top;	
+}
+
+#login_membership tr.ms-WPHeader{
+	display:none;			
+}
+
+#login_membership .ms-WPBorder,#login_membership .ms-WPBorderBorderOnly{
+	border:0;			
+}
+
+
+#login_membership input{
+	margin-left:5px;	
+	vertical-align:top;			
+}
+
+#login_membership input[type=text]{
+	width:130px;
+	height:16px; 
+	border:1px #999999 solid;
+	background-color:#ffffff;
+	font-size:small;							
+} 
+
+ div.buscar input[type=text],  td.buscar input[type=text]{
+	width:130px;
+	height:16px; 
+	border:1px #999999 solid;
+	background-color:#ffffff;
+	font-size:small;	
+	display:inline;						
+} 
+
+#tabla_contenido{
+		float:right;
+}
+
+table.login td{
+	vertical-align:top;
+}
+
+#tabla_contenido img{
+	vertical-align:top;
+}
+
+div.conectarse{
+	.margin-top:-18px;
+}
+
+#login_membership input[type=password]{
+	width:90px;
+	height:16px;
+	border:1px #999999 solid;
+	background-color:#ffffff;
+	font-size:small;							
+} 
+
+
+#login_membership input[type=submit]{
+	width:17px;
+	height:15px;
+	border:0 !important;
+	background-image:url('../Images/play.jpg');
+	background-repeat:no-repeat;
+	background-color:transparent;
+	vertical-align:middle;
+
+} 
+
+#login_membership input[type=submit].lupa_buscar, #login_membership input[type=submit].lupa_buscar, #login_membership div.buscar input[type=submit]{
+	height:16px;
+	width:16px;
+	text-decoration:none;
+	vertical-align:middle;
+	background-image:url('../Images/lupa.gif');
+	background-position:center;	
+	border:0;
+	background-color:transparent;
+	cursor:pointer;		
+	overflow:hidden;
+	color:#ffffff;
+	float:right;
+	margin-left:3px;
+}
+
+div.buscar a, td.buscar a{
+	height:16px;
+	width:16px;
+	text-decoration:none;
+	vertical-align:middle;
+	background-image:url('../Images/lupa.gif');
+	background-position:center;	
+	border:0;
+	background-color:transparent;
+	cursor:pointer;		
+	overflow:hidden;
+	color:#ffffff;	
+	margin-left:3px;
+}
+
+
+
+#login_membership td.ms-WPBorder div{
+	display:inline;				
+}
+
+#login_membership .login{
+	display:table-cell;		
+	margin:0;		
+}
+
+#login_membership .buscar{
+	display:table-cell;
+	margin:0;
+}
+
+.utilidades{
+	display:table-cell;
+	margin-left:10px;		
+}
+
+.utilidades img{
+	vertical-align:text-top;
+}
+
+.mainContent
+{
+	width:100%;	
+	float:left;	
+	margin:0;
+	padding:0;
+}
+
+.mainContainer
+{
+	width:100%;	
+	float:left;	
+	margin:0;
+	padding:0;
+	clear:both;
+}
+
+
+/*** CLases***/
+
+.limpiar{
+	width:100%;
+	height:0;
+	clear:both;
+	float:left;
+	overflow:hidden;
+}
+
+span.etiqueta{
+	color:#999999;
+	margin-right:5px;
+	font-weight:bold;			
+}
+
+span.etiqueta_grana{
+	color:#99115d;
+	margin-right:5px;
+	font-weight:bold;	
+}
+
+span.titular_franja{
+	margin-left:160px;
+	float:left;		
+}
+
+
+/***Enlaces***/
+
+#contenido_cabecera a{
+	text-decoration:none;			
+}
+
+#idiomas a{
+	text-decoration:none;
+	color:#ffffff;	
+}
+
+#idiomas a:hover{
+	text-decoration:none;
+	color:#fcc44d;	
+}
+
+
+
+a.lupa{
+	height:21px;
+	width:16px;
+	text-decoration:none;
+	vertical-align:middle;
+/*	background-image:url('../Images/lupa.gif');
+	background-position:center;			*/
+}
+
+
+
+a.play{	
+	height:22px;
+	width:21px;
+	text-decoration:none;
+	vertical-align:middle;
+
+			
+}
+
+
+/**********Detalle noticias*****/
+
+table.iconos_derecha td.ms-formbody img{
+	width:25px;
+	margin-right:2px;		
+	float:left;	
+}
+
+table.iconos_derecha td.ms-formbody div{
+	display:block;
+	width:78px;				
+}
+
+table.iconos_derecha td.ms-formbody{
+	font-size:x-small;		
+	background-color:transparent;	
+	text-align:left;
+	border:0;
+	margin-bottom:5px;
+	float:left;
+}
+
+
+table.detalle_noticia{
+	text-align:justify;	
+	padding-right:10px;				
+}
+
+table.detalle_noticia td.ms-formlabel{
+	display:none;				
+}
+
+table.detalle_noticia td.ms-formbody{
+	
+	background-color:transparent;				
+	border:0;
+}
+
+table.detalle_noticia td.ms-formbody.titulo_noticia{
+	color:#99115d;
+	font-size:medium;
+	font-weight:bold;
+}
+
+table.detalle_noticia td.ms-formbody img.imagen_detalle, table.detalle_noticia td.ms-formbody img{
+	padding:3px;
+	border:1px #99115d solid !important;		
+	margin-right:10px;		
+}
+
+table.detalle_noticia td.ms-formbody img.imagen_detalle:hover{
+	opacity:0.5;
+	filter:alpha(opacity=50);
+	cursor:hand;
+}
+
+table.detalle_noticia td.ms-formbody img.callejero_detalle{
+	border:0;	
+}
+
+
+table.detalle_noticia td.ms-formbody span.fecha_detalle{
+	float:left;
+	font-size:x-small;
+	font-weight:bold;
+	color:#666666 !important;				
+}
+
+table.detalle_noticia td.ms-formbody{
+	padding:0 5px 5px 0px;
+					
+}
+
+
+table.detalle_noticia td.ms-formbody.cuerpo_detalle_noticia{
+	padding-bottom:20px;
+	border-bottom:1px #99115d solid;
+	float:left;
+	width:100%;
+}
+
+table.detalle_noticia td.ms-formbody.bajo_detalle_noticia{
+	padding:10px 20px 10px 20px;
+	border-bottom:1px #99115d solid;
+	text-align:justify;
+	font-size:x-small;
+	margin-bottom:10px;
+	float:left;
+	width:100%;
+					
+}
+
+
+/***Formularios***/
+
+.caja_texto{
+	width:90px;
+	height:16px;
+	border:1px #999999 solid;
+	background-color:#ffffff;
+	font-size:small;	
+	vertical-align:middle;			
+}
+
+
+/********Sobrecarga de estilos*****/
+
+#flota_acciones .ms-siteactionsmenu div div div{
+	background-color:transparent;
+	color:#666666;
+	background-image:none !important;
+	border:0;
+	padding-top:5px;
+
+}
+
+#flota_acciones .ms-siteactionsmenu div div div a{
+	color:#666666;				
+}
+
+.ms-globallinks{
+	font-size:small;
+}
+
+
+
+/*****calendario*****/
+
+
+.ms-cal-topday a{
+	color:#ffffff !important;				
+	text-decoration:none;
+}
+
+.ms-cal-topday-today a{
+	color:#666666;				
+	text-decoration:none;
+				
+}
+
+.ms-cal-topdayover a{
+	color:#000000 !important;				
+	text-decoration:none;
+}
+
+.ms-cal-topday-todayover a {
+	color:#ffffff !important;				
+	text-decoration:none;
+				
+}
+
+.ms-cal-topday, .ms-cal-topdayover, .ms-cal-topday-todayover, .ms-cal-topday-today, .ms-cal-defaultbgcolor, td.ms-cal-muworkitem, div.cont, div.contL {
+	border-color:#99115d;	
+	font-size:small;			
+	
+	background-image:none;	
+}
+
+div.contL{
+	background-color:#ffffff;				
+}
+.ms-cal-defaultbgcolor div, .ms-cal-defaultbgcolorsel, .ms-cal-defaultbgcolor, .ms-cal-dayMultiDay{
+	background-color:transparent !important;
+	background-image:none;			
+}
+
+.ms-cal-muworkitem td, .ms-cal-muworkitemL td, .ms-cal-muworkitemRTL td, .ms-cal-muworkitemRTLL td, .ms-cal-muworkitemR td, .ms-cal-todayitem td, .ms-cal-todayitemRTL td, .ms-cal-noworkitem td, .ms-cal-workitem td, .ms-cal-noworkitemRTL td{
+	border-color:#99115d !important;					
+}
+
+.ms-cal-weekday, .ms-cal-nodataMid, .ms-cal-nodataLeft, .ms-cal-nodataLeftRTL, .ms-cal-nodataLeftBtm, .ms-cal-nodataLeftBtmRTL, .ms-cal-nodataLeftBtm2, .ms-cal-nodataLeftBtmRTL2, .ms-cal-nodataBtm, .ms-cal-nodataBtm2, .ms-cal-weekempty, .ms-cal-weekemptyRTL {
+	background-color:#feebf6;
+	font-size:small;
+	
+					
+}
+
+.ms-cal-workitem2B, .ms-cal-workitemRTL2B, .ms-cal-todayitem2B, .ms-cal-todayitemRTL2B, .ms-cal-workitem, .ms-cal-todayitem, .ms-cal-todayitemRTL, .ms-cal-nodataLeft, .ms-cal-nodataLeftRTL, .ms-cal-nodataLeftBtm, .ms-cal-nodataLeftBtmRTL, .ms-cal-nodataLeftBtm2, .ms-cal-nodataLeftBtmRTL2, .ms-cal-nodataBtm, .ms-cal-nodataBtm2, .ms-cal-nodataMid, .ms-cal-nodataLeft, .ms-cal-nodataLeftRTL, .ms-cal-nodataLeftBtm, .ms-cal-nodataLeftBtmRTL, .ms-cal-nodataLeftBtm2, .ms-cal-nodataLeftBtmRTL2, .ms-cal-nodataBtm, .ms-cal-nodataBtm2, .contR , .ms-cal-noworkitem, .ms-cal-noworkitemL, .ms-cal-noworkitemRTL, .ms-cal-noworkitemB, .ms-cal-noworkitemLB, .ms-cal-noworkitem2B, .ms-cal-noworkitemL2B, .ms-cal-noworkitemRTL2B, .ms-cal-topdayover div, .ms-cal-topdayoverL div, .ms-cal-topdayoverRTL div, .ms-cal-topdayoverRTLL div, .ms-cal-wtopdayover div, .ms-cal-wtopdayLover div, .ms-cal-wtopdayRTLover div, .ms-cal-wtopdayRTLLover div, .ms-cal-topdayfocusover div, .ms-cal-topdayfocusRTLover div, .ms-cal-wtopdayfocusover div, .ms-cal-wtopdayfocusLover div, .ms-cal-wtopdayfocusRTLover div, .ms-cal-wtopdayfocusRTLLover   {
+	border-color:#99115d !important;	
+	background-color:transparent;
+	background-image:none;
+				
+}
+
+.ms-cal-week, .ms-cal-weekB, .ms-cal-weekRTL, .ms-cal-weekRTLB{
+	background-image:none !important;
+	background-color:#f3f3f3;
+	border-color:#99115d !important;
+			
+}
+
+td.ms-cal-monthitem a {
+	color:gray;
+	text-decoration:none;	
+	font-size:small;			
+}
+td.ms-cal-monthitem a:hover {
+	color:gray;
+	text-decoration:underline;				
+}
+
+.ms-cal-monthitem b, td.ms-cal-monthitem a:hover b {
+	color:#99115d;				
+}
+
+.ms-cal-navheader, .ms-cal-nav-buttonsltr, .ms-calheader td {
+	background-color:#ffffff !important;
+	border:0 !important;	
+	font-size:small;
+}
+
+.ms-cal-nav-buttonsltr{
+	color:#99115d;
+}
+
+.ms-cal-nav, td.class=ms-cal-workitem a.ms-cal-more{
+	color:#99115d !important;
+}
+
+td.ms-cal-defaultbgcolor a{
+	color:#666666 !important;				
+}
+
+td.ms-cal-workitem a.ms-cal-more{
+	color:#99115d;
+	font-size:x-small;				
+}
+
+.ms-cal-weekempty{
+	background-color:transparent;				
+}
+
+td.ms-calheader img{
+	display:none;				
+}
+
+td.ms-calheader div.ms-cal-navheader img{
+	display:inline;	
+	border:0;			
+}
+
+td.ms-cal-nav-buttonsltr{
+	border:0;				
+}
+
+.ms-cal-weekselected{
+	border-color:#99115d;
+	background-color:transparent;
+}
+
+/********semana*******/
+
+.ms-cal-weekedge{
+	background-color:transparent;	
+	font-size:small;			
+} 
+
+.ms-cal-enoworkhourF .ms-cal-dayhourF, .ms-cal-enoworkhour .ms-cal-dayhalfhourF, .ms-cal-enoworkhour .ms-cal-dayhourF{
+	border-color:#eae1e6;
+	background:transparent;		
+	font-size:small;		
+}
+
+.ms-cal-enoworkhourF .ms-cal-dayhour, .ms-cal-enoworkhourRTL .ms-cal-dayhalfhourRTLF, .ms-cal-enoworkhourRTLF .ms-cal-dayhalfhourRTLF, .ms-cal-enoworkhourRTL .ms-cal-dayhalfhourRTL, .ms-cal-enoworkhourRTL .ms-cal-dayhourRTLF, .ms-cal-enoworkhourRTL .ms-cal-dayhourRTL, .ms-cal-enoworkhourRTLF .ms-cal-dayhourRTLF, .ms-cal-enoworkhourRTLF .ms-cal-dayhourRTL, .ms-cal-enoworkhour .ms-cal-dayhalfhourF, .ms-cal-enoworkhour .ms-cal-dayhalfhour, .ms-cal-enoworkhour .ms-cal-dayhourF, .ms-cal-enoworkhour .ms-cal-dayhour .ms-cal-enoworkhourF .ms-cal-dayhourF, .ms-cal-enoworkhour, .ms-cal-enoworkhourRTL, .ms-cal-enoworkhourRTLL, .ms-cal-enoworkhourL, .ms-cal-enoworkhourF, .ms-cal-enoworkhourRTLF{
+	border-color:#eae1e6;				
+	font-size:small;
+}
+
+.ms-cal-wtopdayfocusL span, .ms-cal-wtopdayfocusL a{
+	color:#666666 !important;
+	text-decoration:none;	
+	font-size:small;
+				
+}
+
+.ms-cal-wtopdayfocusLover span, .ms-cal-wtopdayfocusLover a, .ms-cal-wtopdayL a, .ms-cal-wtopdayL span, .ms-cal-wtopdayLover a,.ms-cal-wtopdayLover span{
+	color:#ffffff !important;
+	text-decoration:none;	
+	font-size:small;			
+}
+
+.ms-cal-wtopdayfocusL{
+	border-color:transparent;	
+	font-size:small;			
+}
+
+th.ms-cal-wtopday, th.ms-cal-wtopday a, th.ms-cal-wtopday span{
+	color:#ffffff;
+	text-decoration:none;	
+	border-color:#99115d;	
+	font-size:small;		
+}
+
+th.ms-cal-wtopdayover, th.ms-cal-wtopdayover a, th.ms-cal-wtopdayover span{
+	color:#000000;
+	text-decoration:none;	
+	border-color:#99115d;	
+	font-size:small;		
+}
+
+.ms-cal-weekempty{
+	border-color:#eae1e6;	
+	font-size:small;			
+} 
+
+.ms-cal-enoworkhourF .ms-cal-dayhourF, .ms-cal-enoworkhour .ms-cal-dayhalfhourF, .ms-cal-enoworkhour .ms-cal-dayhourF,.ms-cal-enoworkhourF .ms-cal-dayhourF, .ms-cal-enoworkhour .ms-cal-dayhalfhourF, .ms-cal-enoworkhour .ms-cal-dayhourF {
+	border-color: #eae1e6 !important;
+	background:transparent;			
+	font-size:small;	
+} 
+
+.ms-cal-eworkhourRTLF .ms-cal-dayhalfhourRTLF, .ms-cal-eworkhourRTL .ms-cal-dayhalfhourRTLF, .ms-cal-eworkhourRTL .ms-cal-dayhalfhourRTL, .ms-cal-eworkdayRTL .ms-cal-dayhalfhourRTL, .ms-cal-enoworkdayRTL .ms-cal-dayhalfhourRTL, .ms-cal-eworkdayRTL .ms-cal-dayhalfhourRTLF, .ms-cal-enoworkdayRTL .ms-cal-dayhalfhourRTLF, .ms-cal-enoworkhourRTL .ms-cal-dayhalfhourRTLF, .ms-cal-enoworkhourRTLF .ms-cal-dayhalfhourRTLF, .ms-cal-enoworkhourRTL .ms-cal-dayhalfhourRTL, .ms-cal-workhourhalfhour, .ms-cal-workhourhalfhourB, .ms-cal-workhourRTLhalfhour, .ms-cal-workhourRTLBhalfhourover, .ms-cal-workhourRTLhalfhourover, .ms-cal-workhourBhalfhourover, .ms-cal-workhourBhalfhourover, .ms-cal-workhourhalfhourover, .ms-cal-workhourRTLFhalfhourover, .ms-cal-workhourFhalfhourover{
+	border-color: #eae1e6;
+	background-color:transparent;	
+	font-size:small;			
+}
+
+
+.ms-cal-eworkhourF .ms-cal-dayhourF, .ms-cal-eworkday .ms-cal-dayhourF, .ms-cal-enoworkday .ms-cal-dayhourF, .ms-cal-enoworkdayF .ms-cal-dayhourF, .ms-cal-eworkday .ms-cal-dayhalfhourF, .ms-cal-enoworkday .ms-cal-dayhalfhourF, .ms-cal-enoworkdayF, .ms-cal-dayhalfhourF, .ms-cal-eworkdayF .ms-cal-dayhourF, .ms-cal-eworkhour .ms-cal-dayhourF, .ms-cal-eworkhour .ms-cal-dayhalfhourF, .ms-cal-eworkhourF .ms-cal-dayhour, .ms-cal-eworkhourF .ms-cal-dayhourF, .ms-cal-eworkhour .ms-cal-dayhourF, .ms-cal-eworkhour .ms-cal-dayhour, .ms-cal-eworkday .ms-cal-dayhour, .ms-cal-enoworkday .ms-cal-dayhour, .ms-cal-eworkday .ms-cal-dayhourF, .ms-cal-enoworkday .ms-cal-dayhourF, .ms-cal-enoworkhourF .ms-cal-dayhour, .ms-cal-enoworkhourF .ms-cal-dayhourF, .ms-cal-enoworkhour .ms-cal-dayhour, .ms-cal-enoworkhour .ms-cal-dayhourF, .ms-cal-eworkhourF .ms-cal-dayhalfhourF, .ms-cal-eworkhour .ms-cal-dayhalfhourF, .ms-cal-eworkhour .ms-cal-dayhalfhour, .ms-cal-eworkday .ms-cal-dayhalfhour, .ms-cal-enoworkday .ms-cal-dayhalfhour, .ms-cal-eworkday .ms-cal-dayhalfhourF, .ms-cal-enoworkday .ms-cal-dayhalfhourF, .ms-cal-enoworkhour .ms-cal-dayhalfhour, .ms-cal-enoworkhour .ms-cal-dayhalfhourF{
+	border-color: #eae1e6;
+	background-color:transparent;
+	font-size:small;			
+}
+
+.ms-cal-weekempty, .ms-cal-weekemptyRTL{
+	background-color:transparent;	
+	font-size:small;			
+} 
+
+.ms-cal-dayhourF, .ms-cal-enoworkhourF, ms-cal-dayhalfhourF, .ms-cal-enoworkhour, .ms-cal-enoworkday{
+	background-color:#f0f0f0;				
+	font-size:small;
+}
+
+.ms-cal-workhourF,.ms-cal-workhourFover, .ms-cal-workhour, .ms-cal-workhourover, .ms-cal-workhourBhalfhour, .ms-cal-workhourBhalfhourover, .ms-cal-enoworkhourB .ms-cal-dayhalfhour, .ms-cal-enoworkhourB .ms-cal-dayhour, .ms-cal-enoworkhourB .ms-cal-dayhalfhourF, .ms-cal-enoworkhourB .ms-cal-dayhourF, .ms-cal-time   {
+	background-color:#efefef;			
+	border-color:#eae1e6;	
+	color: #666666;
+	font-size:small;
+}
+
+.ms-cal-tweekitem, .ms-cal-tdayitem {
+	border-color:#99115d;	
+	background-image:none;		
+	background-color:#feebf6;
+	font-size:1.3em;
+	
+}
+
+a.ms-cal-dayitem, a.ms-cal-tdayitem{
+	color:#666666 !important;
+	font-size:small;
+}
+
+.ms-cal-alldayevent td, .ms-cal-alldayeventRTL td, .ms-cal-alldayeventL td, .ms-cal-alldayeventR td, .ms-cal-alldayeventRTLL td, .ms-cal-alldayeventRTLR td{
+	font-size:0.9em;				
+}
+
+.ms-cal-wemptycell, .ms-cal-wemptycellL{
+	background-color:transparent;
+	border-color::#99115d !important;
+	font-size:small;				
+} 
+
+.ms-cal-topday-today div a, .ms-cal-wtopday-today div a, .ms-cal-topday-todayRTL div a, .ms-cal-wtopday-todayRTL div a {
+	color:#666666;
+	text-decoration:none;				
+}
+
+.ms-cal-topday-todayover div a, .ms-cal-wtopday-todayover div a, .ms-cal-topday-todayoverRTL div a, .ms-cal-wtopday-todayRTLover div a{
+	color:#ffffff;
+	text-decoration:none;	
+	font-size:small;			
+}
+
+
+a.ms-cal-dayMultiDay{
+	font-size:1.3em;				
+}
+
+
+/********************/
+div.imagen_cabecera{
+	width:100%;
+	float:left;
+	clear:both;
+	margin:0 0 0 0;
+	padding:0;
+	height:0;		
+	min-height:0;
+
+		
+}
+
+div.imagen_cabecera img{
+	margin:0 0 5px 0;	
+}
+
+
+div.imagen_cabecera h2.WebpartHeadline{
+	display:none;
+				
+}
+
+.intro_area{
+	width:100%;
+	float:left;
+	clear:both;				
+}
+
+
+#onetIDListForm{
+	width:100%;				
+}
+
+
+.mainContainer h2.WebpartHeadline{
+	background-color:#ffffff;
+	
+	margin:3px 0 0 0;
+	padding:0 0 5px 0;
+	background-color:#99115d;
+	color:#ffffff;
+	font-size:small;
+	font-weight:bold;	
+	padding:4px 0 5px 10px;	
+	margin:0;
+	
+}
+
+.ms-formbody{
+	background-color:#fdebf5;				
+}
+ 
+.ms-formbody a{
+	color:#99115d;				
+}
+
+div.texto{
+	font-size:small;				
+}
+
+td.ms-formlabel{
+	font-size:small;				
+}
+
+
+.headertitle-small{	
+	margin-left:10px;
+	font-size:1em;
+	text-decoration:none;
+	font-weight:normal !important;
+
+}
+
+.headertitle-small a{
+	font-weight:normal !important;
+	color:#666666;
+	text-decoration:none;
+}	
+
+.headertitle-large{
+	font-weight:bold;
+	font-size:1.1em;
+	text-decoration:none;				
+}
+
+.headertitle-large a{
+	color:#333333;	
+	text-decoration:none;
+			
+}
+
+
+.level-item-pos{
+	margin-left:20px;				
+}
+
+.level-item-pos #header{
+	padding-left:5px;		
+}
+
+/**********BUSQUEDA**********/
+.ms-pagemargin{
+	background-color:transparent !important;
+	background-image:none;				
+}
+
+.srch-Title a:link{
+	color:#99115d;
+	text-decoration:none;				
+}
+
+.srch-Title a:hover{
+	color:#99115d;
+	text-decoration:underline;				
+}
+
+.srch-URL a:link{
+	color:#99115d !Important;
+} 
+
+.srch-URL a:hover{
+	color:#99115d !Important;
+	text-decoration:underline;
+} 
+
+td.ms-sbcell{
+	background-color:transparent;				
+}
+
+.ms-sbtable{
+	margin-top:9px;				
+}
+
+.ms-srchresultstop, .srch-stats, .srch-WPBody, #SRST{
+	background-color:#f0f0f0 !important;				
+}
+
+.srch-sort-right a:link, .srch-sort-right a{
+	color:#99115d !important;				
+} 
+.srch-sort-right a:hover{
+	text-decoration:underline;				
+}
+
+.ms-WPBody a, .ms-WPBody a:link{
+	color:#99115d !important;
+	text-decoration:none;				
+}
+
+.ms-WPBody a:hover{
+	text-decoration:underline;				
+}
+
+ .ms-WPBody a:visited, .srch-URL a:visited, .srch-sort-right a:visited{
+ 	color:#bd6b99 !important;
+ }
+
+div.ms-searchChannelTitle{
+	background-image:none;
+	background-color:#99115d !important;
+	color:#ffffff;				
+}
+
+.ms-searchChannelTitle span{
+	color:#ffffff !important;				
+}
+
+#SRP .srch-WPBody{
+	background-color:#f0f0f0 !important;				
+}
+
+
+.ms-cal-dayitem nobr{
+	font-size:small;				
+}
+
+.ms-cal-tweekitem td div{
+	font-size:small;
+	border:1px #666666 solid;				
+}
+
+.cont, .contR, .contB, .contL{
+	background-color:transparent;				
+	background-image:none;
+}
+
+.login a{
+	color:#99115d;
+	text-decoration:none;					
+}
+
+.ms-gb a, .ms-gb2 a{
+	color:#666666;
+}
+
+
+/*********CALLEJERO**************/
+
+span.label_direccion{
+	margin-left:10px;
+	font-weight:bold;
+	margin-right:10px;	
+	float:left;			
+}
+
+.txt_direccion{
+	width:50%;
+	margin-right:10px;	
+	float:left;		
+}
+
+.boton_direccion{
+	float:left;
+	clear:right;				
+}
+
+ul.tipo_instalaciones{	
+	padding:10px 1% 10px 1%;	
+	margin:10px 0 10px 0;	
+	width:97% !important;
+	float:left;
+	border:1px #666666 solid;
+}
+
+ul.tipo_instalaciones li{
+	display:inline;	
+	margin-right:20px;
+}
+
+ul.tipo_instalaciones li img{
+	height:30px;
+	margin-left:5px;
+	margin-right:5px;
+}
+
+
+#map_canvas{
+	float:left;				
+	margin-bottom:15px;
+	border:1px #666666 solid;	
+	width:99% !important;
+}
+
+table.calendario{
+	border:0 !important;
+}
+
+.ms-gb{
+	border-bottom-color:#99115d;	
+}
+
+.ms-SPZone{
+	border:0;
+	background-color:transparent;
+
+}
+
+.ms-vh, .ms-vh2, .ms-vh-icon, .ms-vh2-nofilter, .ms-vh2-nofilter-icon, .ms-viewheadertr .ms-vh-group, .ms-vh2-nograd, .ms-vh3-nograd, .ms-vh2-nograd-icon, .ms-ph, .ms-pickerresultheadertr{
+	background-image:none;
+	background-color:#dddddd;
+}
+
+.ms-menutoolbar td, .ms-menutoolbar td td, .ms-splitbuttonhover .ms-splitbuttondropdown, .ms-splitbuttonhover .ms-splitbuttontext, .ms-menutoolbar{	
+	border:0 !important;
+}
+
+.ms-menutoolbar, .ms-listviewtable{
+	margin-bottom:5px;
+}
+
+.ms-toolbar, .ms-viewtoolbar, .ms-formtoolbar, .ms-toolbarContainer{
+	background-image:none !important;
+	border:0 !Important;
+}
+
+.ms-separator{
+	color:#999999;	
+}
+
+.ms-formbody img {
+	max-width:250px;
+	
+	margin-right:10px;
+}
+
+td.ms-formbody.cuerpo_detalle_noticia img{
+	width:auto;
+	float:none;
+	
+}
+
+.ms-formbody select,  .ms-formbody option{
+	max-width:500px;
+	overflow:hidden;
+	float:left;
+}
+
+
+.ms-formbody{
+	overflow:hidden;
+}
+
+a.ms-toolbar, .ms-toolbar td a, .ms-descriptiontext{
+	font-size:x-small;
+}
+
+.imagen img{
+	margin-bottom:5px;
+}
+
+div.tipo_instalacion{
+	display:inline;	
+}
+
+
+/********Servicios destacados***/
+ul.ul_vista{
+	list-style:none;
+	display:inline;
+	text-align:center;
+	height:50px;
+	float:inherit;			
+	margin:0 0 0 10px;
+	padding:0;	
+}
+
+ul.ul_vista li{
+	list-style:none;
+	display:inline;
+	text-align:left;
+	height:50px;
+	margin:5 5 5 0;	
+	max-width:100px;
+	float:none;	
+	display:table-cell;
+	.display:inline;
+	*display:inline;
+
+		
+}
+
+body:nth-of-type(1) ul.ul_vista li{
+	list-style:none;
+	display:inline;
+	text-align:left;
+	height:50px;
+	margin:5 5 5 0;	
+	max-width:100px;
+	float:none;	
+	display:table-cell;
+	display:inline;		
+}
+
+
+
+ul.ul_vista li.imagen{
+	list-style:none;
+	display:inline;
+	text-align:center;
+	height:50px;
+	margin:5;	
+	float:none;		
+	width:auto;
+	vertical-align:middle;		
+}
+
+
+ul.ul_vista li table{
+	width:auto !important;	
+	vertical-align:top;			
+}
+
+ul.ul_vista li table tr{
+	width:auto !important;	
+	vertical-align:top;			
+}
+
+ul.ul_vista li table td{
+	width:auto !important;	
+	vertical-align:top;			
+}
+
+ul.ul_vista li a{
+	text-decoration:none;
+	color:#cd9215;		
+	font-size:small;
+	padding-right:20px;		
+}
+
+ul.ul_vista li.imagen a{
+	padding-right:0px;		
+	text-decoration:none;
+}
+
+
+ul.ul_vista li img{
+	vertical-align:top;
+	.vertical-align:middle;
+	*vertical-align:middle;
+	margin-right:5px;		
+}
+
+.cuerpo_articulo, .cuerpo_articulo2{
+	font-size:small;								
+}
+
+div.detalle_destacado{	
+	float:left;
+	overflow:hidden;
+	width:100%;	
+}
+
+div.detalle_destacado img{
+	float:left;
+	margin-top:10px;
+	width:250px;	
+	
+}
+
+div.detalle_destacado p{
+	float:none;	
+}
+
+div.imagen_detalle_destacado{
+	width:260px;
+	float:left;	
+	overflow:hidden;
+	margin-right:10px;
+}
+
+div#buscador_share{
+	
+	float:right;
+	margin:-10px 10px 0 0;
+	display:inline;
+
+}
+
+div#buscador_share br{
+	height:0;
+	float:left;
+	padding:0;
+	margin:0;
+	width:0;
+				
+}
+
+div#buscador_share td.ms-sbcell{
+	border:0;	
+}
+
+.srch-Icon, .ms-searchsummaryTitle img{	
+	margin-right:5px;
+}
+
+.ms-searchsummaryTitle{
+	margin-top:10px;
+	margin-bottom:5px;
+	font-weight:bold;
+}
+
+.ms-sblink a{
+	color:#99115d !important;
+}
+
+
+div.chincheta{
+	width:100%;
+	float:left;
+	clear:both;
+	margin-top:4px;
+}
+
+div.chincheta span{
+	min-height:17px;
+	float:left;
+	
+}

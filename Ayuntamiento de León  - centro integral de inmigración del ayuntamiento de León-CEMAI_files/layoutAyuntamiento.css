@@ -1,0 +1,753 @@
+﻿/*****Estilos layoutAyuntamiento****/
+
+#contenido_ayuntamiento{
+	width:100%;
+	height:auto;
+	clear:both;	
+	display:inline;	
+	margin-top:0;
+	margin-bottom:10px;	
+	float:left;
+
+}
+
+
+#columna1{
+	width:49%;
+	margin-right:1%;
+	float:left;
+	height:auto;
+	background-color:#fbf1f7;		
+}
+
+#columna1 .ms-standardheader{
+	/*background-color:#bd6b99;*/
+	background-color:#99115d;
+	color:#ffffff;
+	height:20px;
+	padding-top:3px;
+}
+
+#columna1 .ms-WPTitle span{
+	color:#ffffff;
+	padding-left:5px;
+	font-size:medium;
+}
+
+#columna1 tr.ms-viewheadertr{
+	display:none;				
+}
+
+
+#columna1 tr{
+	background-color:#fbf1f7;					
+}
+
+#columna1 .ms-listviewtable, #columna2 .ms-listviewtable{
+	margin-bottom:10px;				
+}
+
+
+#columna1 h2.WebpartHeadline{		
+	background-color:#99115d;
+	color:#ffffff;
+	height:20px;
+	padding:3px 5px 3px 10px;
+	font-size:small;
+	font-weight:bold;
+	margin:0;
+	clear:both;			
+}
+
+#columna1 .ms-vb2 img{
+	width:95%;
+	padding:3px;
+	border:1px #99115d solid;
+	float:right;				
+}
+
+#columna1 .ms-vb-title a, #columna1 .ms-vb2{
+	padding:5px 0 0 14px;
+ 	background-image:url('../Images/exclamacion.gif');
+ 	background-position:left;
+ 	background-repeat:no-repeat;
+ 	color:#444444;
+				
+}
+
+#columna1 .ms-vb-title{
+	padding-top:5px;				
+}
+
+/*************Columna2****/
+
+#columna2{
+	width:49%;
+	float:left;
+	height:auto;
+	/*background-image:url('../Images/calendario-fondo.png');
+	background-position:right top;
+	background-repeat:no-repeat;		*/	
+}
+
+#columna2_eventos_calendario{
+	width:100%;
+	float:left;
+	clear:both;				
+}
+
+#columna2_eventos{
+	width:49%;
+	float:left;	
+	height:auto;	
+	.margin-right:1%;				
+}
+
+#columna2_eventos span.evento{
+	float:left;
+	margin-bottom:5px;
+	clear:both;			
+} 
+
+
+#columna2_eventos span.evento a{
+	color:#666666 !important;
+	text-decoration:none;	
+	font-weight:bold;
+	font-size:small;
+	padding-left:22px;
+	background-image:url('../Images/chincheta-grana.gif');
+	background-position:left 4px;
+	background-repeat:no-repeat;		
+	
+}
+
+#columna2_eventos .evento.verde a{
+	color:#666666 !important;
+	text-decoration:none;	
+	font-weight:bold;
+	font-size:small;
+	padding:5px 0 0 22px;
+	.padding:2px 0 0 22px;
+	background-image:url('../Images/chincheta-verde.gif');
+	background-position:left top;
+	background-repeat:no-repeat;			
+}
+
+#columna2_eventos .evento.rojo a{
+	color:#666666 !important;
+	text-decoration:none;	
+	font-weight:bold;
+	font-size:small;
+	padding:5px 0 0 22px;
+	.padding:2px 0 0 22px;	
+	background-image:url('../Images/chincheta-roja.gif');
+	background-position:left top;
+	background-repeat:no-repeat;		
+	
+}
+
+
+
+
+#columna2_recomendamos a{
+	color:#666666 !important;
+	text-decoration:none;	
+}
+
+
+#columna2_calendario{
+	width:49%;
+	float:right;
+	.float:left;	
+	height:auto;
+	font-size:small;				
+}
+
+#columna2_calendario table{
+	width:100%;				
+}
+
+
+#columna2_calendario table{
+	border:0 !important;		
+}
+
+#columna2_calendario tr{
+	background-color:#99115d;
+	color:#ffffff;		
+	font-weight:bold;
+		
+}
+
+#columna2_calendario td.dia{
+	background-color:#ffffff;		
+	font-weight:normal;		
+	color:#999999;
+}
+
+#columna2_calendario td.dia a{
+	color:#000000 !important;
+	text-decoration:none;	
+}
+
+#columna2_calendario td.dia a:hover{
+	color:#000000;
+	text-decoration:underline;	
+}
+
+
+#columna2_calendario td.pasa_mes a{
+	text-decoration:none;
+	color:#ffffff !important;
+	font-weight:bold;	
+}
+
+
+
+#columna2_calendario td.hoy{
+	background-color:#bd6b99;		
+	font-weight:bold;
+		
+}
+
+#columna2_calendario td.hoy a{
+	color:#ffffff !important;
+	text-decoration:none;		
+}
+
+
+
+#columna2_calendario td.dia_otro_mes{
+	background-color:#efefef;
+	font-weight:normal;
+	color:#555555 !important;
+	font-style:italic;
+					
+}
+
+#columna2_calendario td.fin_semana{
+	background-color:#fdebf5;
+	font-weight:normal;
+	color:#666666 !important;
+				
+}
+
+
+#columna2_calendario td.dia_otro_mes a, #columna2_calendario td.fin_semana a{
+	color:#666666 !important;
+	text-decoration:none;
+					
+}
+
+
+#columna2_calendario table th{
+	color:#99115d;
+	background-color:#ffffff;
+}
+
+
+#columna2_recomendamos{
+	width:100%;
+	min-height:220px;
+	clear:both;
+	float:left;
+	margin-top:10px;	
+	background-image:url('../Images/pulgar-azul.jpg');
+	background-position:center bottom;
+	background-repeat:no-repeat;				
+}
+
+#columna2_campanyas, #columna2_enlaces {
+	width:100%;
+	clear:both;
+	float:left;
+	margin-top:10px;
+	text-align:left;					
+}
+
+
+#columna2_area{
+	
+	width:100%;
+	clear:both;
+	float:left;
+	margin-top:10px;	
+					
+}
+
+#columna2_area .fila_recomendamos_1 img,  #columna2_area .fila_recomendamos_2 img{
+	
+	width: 45%;
+	padding-top: 0pt;
+	padding-right: 0pt;
+	padding-bottom: 5px;
+	padding-left: 7px;
+	margin-right: 5px;
+	clear: both;
+	float: left;
+	background-image: url(../Images/fondo-foto.gif);
+	background-position: left top;
+	background-repeat: no-repeat;	
+					
+}
+
+
+/*#columna2_area span.titulonormal{
+	font-size:medium;
+	font-weight:bold;
+	color:#99115d !important;	
+	text-transform:lowercase;
+	background-color: #fdebf5;			
+}*/
+
+
+#columna2 h2.WebpartHeadline{		
+	background-color:#fdebf5;
+	color:#99115d;
+	height:20px;
+	padding:3px 5px 3px 10px;
+	font-size:small;
+	font-weight:bold;
+	margin:0;
+	width:100%;
+	padding-left:5px;
+			
+}
+
+#columna2_eventos h2.WebpartHeadline{		
+	background-color:#fdebf5;
+	color:#99115d;
+	height:20px;
+	padding:3px 5px 3px 10px;
+	font-size:small;
+	font-weight:bold;
+	margin:0 0 10px 0;
+			
+}
+
+#columna2_eventos .ms-WPTitle, #columna2_recomendamos .ms-WPTitle, #columna2_campanyas .ms-WPTitle, #columna2_enlaces .ms-WPTitle {		
+	background-color:#fdebf5;
+	color:#99115d;
+	height:20px;
+	padding:3px 5px 3px 5px;
+	font-size:medium;
+	font-weight:bold;
+	margin:0 0 10px 0;
+			
+}
+
+#columna2_eventos .ms-WPTitle a,  #columna2_recomendamos .ms-WPTitle a{		
+	color:#99115d !important;
+	background-image:none;
+	padding:0;		
+	font-size:medium;
+	
+}
+
+
+#columna2_eventos span.fecha_evento_verde{
+	width:100%;
+	float:left;
+	text-align:right;
+	font-size:x-small;
+	font-weight:bold;
+	color:green;				
+}
+
+#columna2_eventos span.fecha_evento_rojo{
+	width:100%;
+	float:left;
+	text-align:right;
+	font-size:x-small;
+	font-weight:bold;
+	color:red;				
+}
+
+
+
+
+
+
+#columna2_recomendamos td.ms-vb2 img{
+	width:95%;
+	.width:100px;
+	padding:3px;
+	border:1px #99115d solid;
+	float:left;				
+}
+
+#columna2_recomendamos td.ms-vb2 {
+	width:20%;
+	float:right;				
+}
+
+#columna2_recomendamos td.ms-vb-title{
+	width:75%;		
+	float:left;		
+}
+
+/***************/
+
+#servicios_destacados{
+	width:100%;
+	height:50px;
+	border-bottom:1px #99115d solid;
+	border-top:1px #99115d solid;
+	float:left;
+	text-align:center;
+	background-image:url('../Images/fondo-servicios-abajo-grana.jpg');
+	background-repeat:repeat-x;
+	clear:both;	
+	overflow:hidden;			
+		
+}
+
+#servicios_destacados_vacio{
+	width:100%;
+	height:20px;
+	border-bottom:1px #99115d solid;
+	border-top:1px #99115d solid;
+	float:left;
+	text-align:center;
+	background-image:url('../Images/fondo-servicios-abajo-grana.jpg');
+	background-repeat:repeat-x;
+	clear:both;				
+		
+}
+
+
+
+#servicios_destacados th{
+	display:none;
+}
+
+
+/*****Clases******/
+
+ul.ul_vista li a{
+	text-decoration:none;
+	color:#99115d;		
+	font-size:small;
+	padding-right:20px;		
+}
+
+
+.noticias_home_ayto{
+	width:100%;
+	clear:both;
+	float:left;
+	text-align:justify;
+	margin-bottom:5px;
+	margin-top:5px;	
+}
+
+.noticias_home_ayto img{
+	float:left;
+	width:100%;
+	padding:3px;
+	margin-right:5px;
+	border:1px #99115d solid !important;
+}
+
+.noticias_home_ayto span.titulo{
+	font-size:small;
+	color:#333333;
+	font-weight:bold;
+	margin-right:5px;
+}
+
+.noticias_home_ayto span.titulo a{
+	font-size:small;
+	color:#333333 !important;
+	font-weight:bold;
+	margin-right:5px;
+	text-decoration:none;
+}
+
+.noticias_home_ayto span.titulo a:hover{
+	 text-decoration:underline;
+}
+
+
+
+.noticias_home_ayto span.resumen{
+	font-size:small;
+	color:#666666;	
+	margin-right:5px;
+	float:left;
+}
+
+.noticias_home_ayto span.fecha a{
+	float:left;
+	width:100%;
+	margin-top:3px;
+	color:#99115d !important;
+	font-size:x-small;
+	font-weight:bold;
+	clear:both;
+	text-decoration:none;
+}
+
+.noticias_home_ayto span.fecha a:hover{
+	text-decoration:underline;
+}
+
+
+.noticias_home_ayto div.titulo{
+	font-size:small;
+	color:#17317B;
+	font-weight:bold;
+	margin-right:5px;
+}
+
+.noticias_home_ayto div.resumen{
+	font-size:small;
+	color:#666666;	
+	margin-right:5px;
+	float:left;
+	clear:both;
+}
+
+.noticias_home_ayto div.fecha{
+	float:left;
+	width:100%;
+	margin-top:3px;
+	color:#99115d !important;
+	font-size:x-small;
+	font-weight:bold;
+}
+
+
+.mas_noticias{
+	width:auto;
+	clear:both;
+	float:right;
+	margin-top:3px;
+	margin-bottom:10px;
+	background-color:#99115d;
+	color:#ffffff;
+	font-size:x-small;
+	font-weight:bold;
+	margin-right:1%;
+	padding:0 2px 0 2px;
+}
+
+#columna1 div.mas_noticias a, #columna2 div.mas_noticias a{
+	color:#ffffff !important;
+	text-decoration:none !important;
+}
+
+
+div.imagen_noticias_home{
+	width:25%;
+	float:left;
+	margin-right:2%;
+}
+
+div.estructura_noticias_home{
+	width:71%;
+	float:right;
+	margin-right:1%;
+	border-bottom:1px #99115d solid;
+	padding-bottom:5px;
+}
+
+.noticias_home_ayto span.mas{
+	float:right;	
+	margin-top:3px;
+	color:#17317b;
+	font-size:x-small;
+	font-weight:bold;	
+}
+
+.noticias_home_ayto span.mas a{
+	color:#17317b !important;
+	text-decoration:none;	
+}
+
+.noticias_home_ayto div.mas{
+	float:right;	
+	margin-top:3px;
+	color:#17317b;
+	font-size:x-small;
+	font-weight:bold;	
+}
+
+.noticias_home_ayto div.mas a{
+	color:#99115d !important;
+	text-decoration:none;	
+}
+
+.noticias_home_ayto div.mas a:hover{
+	background-color:#99115d;
+	color:#ffffff !important;
+	text-decoration:none;
+	padding:3px;	
+}
+
+
+.limpiar{
+	width:100%;
+	float:left;
+	clear:both;
+	height:0;
+	overflow:hidden;				
+}
+
+.fila_recomendamos{
+	width:100%;
+	height:auto;
+	float:left;
+	clear:both;
+	text-align:left;
+	margin:10px 0 10px 0;
+	
+
+}
+
+.fila_recomendamos_1{
+	width:49%;
+	float:left;
+	height:auto;
+	margin-bottom:10px;
+	
+}
+
+.fila_recomendamos_2{
+	width:49%;
+	float:right;
+	height:auto;
+}
+
+.fila_recomendamos_1 img, .fila_recomendamos_2 img{
+	width:45%;
+	padding:0 0 5px 7px;
+	margin-right:5px;
+	clear:both;
+	float:left;
+	background-image:url('../Images/fondo-foto.gif');
+	background-position:left top;
+	background-repeat:no-repeat;
+}
+
+.fila_recomendamos_1 a, .fila_recomendamos_2 a{
+	text-decoration:none;
+	color:#666666 !important;
+	font-size:small;
+	font-weight:bold;
+}
+
+/****Sobrecarga de estilos***/
+
+
+h3.ms-PostDate{
+	border:0;				
+}
+
+.ms-PostWrapper, .ms-CommentsWrapper, .ms-blogrss{
+	width:98%;			
+}
+
+.ms-WPBorder{
+	border:0;				
+}
+
+.ms-WPHeader td{
+	border:0;				
+} 
+
+.ms-PostTitle{
+	border:0;				
+}
+
+.breadcrumb{
+	margin:0 0 5px 0;	
+	padding-left:0px;
+		
+}
+
+#escudo{
+	position:absolute;
+	width:200px;
+	background:transparent;
+	height:80px;
+	margin-top:3px;
+	text-align:center;
+	z-index:2;					
+}
+
+span.titular_franja{
+	margin-left:205px;
+	float:left;		
+}
+
+
+/*#columna2_recomendamos tr.ms-alternating{
+	background-color:#efefef;				
+}*/
+
+/**********Ultimos estilos***/
+.fr{
+	float:right;
+	text-align:right;
+margin-right: 10px;
+}
+
+.fri{
+	float:right;
+	margin-left:20px;
+	vertical-align:text-top;
+       width: 80px;
+margin-right: 20px;
+}
+
+.fli{
+	float:left;
+	margin-right:10px;
+	vertical-align:text-top;
+width: 80px;
+margin-left: 20px;
+
+}
+
+.fl{
+	float:left;
+margin-left: 10px;
+}
+
+
+.contenedor_3filas{
+	width:100%;
+	float:left;
+	clear:both;
+}
+.fila_borde{
+	width:100%;
+	float:left;
+	clear:both;
+	border-bottom:1px #378912 solid;
+	margin-bottom:5px;
+padding-bottom: 5px;
+}
+
+.fila_no_borde{
+	width:100%;
+	float:left;
+	clear:both;
+padding-bottom: 5px;
+}
+
+.titulo{
+	font-size:medium;
+	font-weight:bold;
+	width:100%;
+	margin-bottom:5px;
+	color:#99115d;
+	font-family:tahoma,sans-serif
+}
+
+.contenedor_3filas .fila_borde a, .contenedor_3filas .fila_no_borde a{
+	
+	color:#333333 !important;
+}
